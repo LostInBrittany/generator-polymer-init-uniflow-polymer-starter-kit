@@ -1,6 +1,6 @@
 {
   "name": "generator-polymer-init-uniflow-polymer-starter-kit",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A starting point for building apps using the [UniFlow for Polymer pattern ](https: //github.com/google/uniflow-polymer) with a drawer-based layout",
   "authors": [
     "Horacio Gonzalez <horacio.gonzalez@gmail.com>"
@@ -24,7 +24,8 @@
     "yeoman-test": "^1.0.0",
     "yeoman-assert": "^2.0.0",
     "eslint": "^3.12.0",
-    "eslint-config-google": "^0.7.0"
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-html": "^1.7.0"
   },
   "scripts": {
     "lint": "eslint . --ext js,html"
