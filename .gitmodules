@@ -1,0 +1,3 @@
+[submodule "generators/templates/uniflow-polymer-starter-kit"]
+	path = generators/app/uniflow-polymer-starter-kit
+	url = https://github.com/LostInBrittany/uniflow-polymer-starter-kit.git

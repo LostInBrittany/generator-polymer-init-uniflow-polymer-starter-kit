@@ -1,0 +1,35 @@
+{
+  "name": "generator-polymer-init-uniflow-polymer-starter-kit",
+  "version": "2.0.1",
+  "description": "A starting point for building apps using the [UniFlow for Polymer pattern ](https: //github.com/google/uniflow-polymer) with a drawer-based layout",
+  "authors": [
+    "Horacio Gonzalez <horacio.gonzalez@gmail.com>"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": "LostInBrittany/generator-polymer-init-uniflow-polymer-starter-kit",
+  "bugs": {
+    "url": "https://github.com/LostInBrittany/generator-polymer-init-uniflow-polymer-starter-kit/issues"
+  },
+  "main": "generators/app/index.js",
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^3.12.0",
+    "eslint-config-google": "^0.7.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext js,html"
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
